@@ -1,0 +1,39 @@
+/// columns formatted in JSON
+{
+  "TaskDescription": {
+    "type": "string",
+    "description": "A brief description of the job safety task, including its purpose and the specific actions involved.",
+    "guidelines": "The description should be clear, concise, and informative."
+  },
+  "SiteNumber": {
+    "type": "string",
+    "description": "The unique identifier for the site where the job safety task will be performed.",
+    "guidelines": "The site number should be a unique identifier that can be easily referenced for tracking, coordination, and reporting purposes."
+  },
+  "CrewCraft": {
+    "type": "string",
+    "description": "The group of workers or the specific trade responsible for carrying out the job safety task.",
+    "guidelines": "The crew/craft should be identified by their specific designation or trade title."
+  },
+  "BasicTaskSteps": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    },
+    "description": "A detailed breakdown of the job safety task into its individual steps.",
+    "guidelines": "Each step should be clearly defined, sequenced logically, and numbered for easy reference."
+  },
+  "PotentialHazards": {
+    "type": "array",
+    "items": {
+      "type": "string"
+    },
+    "description": "A list of all potential hazards associated with the job safety task, including physical, chemical, biological, and ergonomic hazards.",
+    "guidelines": "The identified hazards should be specific, relevant to the task, and categorized appropriately."
+  },
+  "TwoUpSignatureRequired": {
+    "type": "boolean",
+    "description": "Indicates whether or not two signatures are required to approve the completion of the job safety task.",
+    "guidelines": "This field should be set to \"true\" if two signatures are required and \"false\" if not."
+  }
+}
