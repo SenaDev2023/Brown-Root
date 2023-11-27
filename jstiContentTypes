@@ -1,4 +1,6 @@
 ///content types for Brown&Root
+
+
 Task Description:
 Data type: Text
 Maximum length: 255 characters (recommended)
@@ -6,38 +8,38 @@ Additional considerations:
 Use clear and concise language
 Use bullet points or numbered steps for readability
 Avoid jargon and technical terms
-Site Number:
 
+Site Number:
 Data type: Text
 Maximum length: 20 characters (recommended)
 Additional considerations:
 Use a consistent format (e.g., alphanumeric, numeric)
 Ensure the site number is unique and easily identifiable
-Crew/Craft:
 
+Crew/Craft:
 Data type: Text
 Maximum length: 50 characters (recommended)
 Additional considerations:
 Use the specific trade or designation for the group of workers
 If multiple crews or crafts are involved, separate them with commas
-Basic Task Steps:
 
+Basic Task Steps:
 Data type: Text
 Maximum length: 2000 characters (recommended)
 Additional considerations:
 Break down the task into individual steps
 Use clear and concise language
 Use bullet points or numbered steps for readability
-Potential Hazards:
 
+Potential Hazards:
 Data type: Text
 Maximum length: 1000 characters (recommended)
 Additional considerations:
 Identify all potential hazards associated with the task
 Use clear and concise language
 Prioritize hazards based on severity and likelihood
-Two-Up Signature Required (Yes/No):
 
+Two-Up Signature Required (Yes/No):
 Data type: Boolean
 Values: Yes or No
 Additional considerations:
